@@ -23,7 +23,7 @@ app.use('/app', express.static('public'))
 // });
 
 server.listen(process.env.PORT || 3000, function () {
-  console.log('La app esta escuchando el puerto 3000')
+  console.log('La app esta escuchando el puerto ' + process.env.PORT)
 })
 
 const socket = require('./socket')
