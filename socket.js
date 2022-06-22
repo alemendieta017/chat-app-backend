@@ -3,7 +3,7 @@ const socket = {}
 function connect(server) {
   socket.io = socketIo(server, {
     cors: {
-      origin: 'http://localhost:5000',
+      origin: '*',
       methods: ['GET', 'POST'],
       credentials: true,
     },
