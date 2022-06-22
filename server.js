@@ -22,7 +22,7 @@ app.use('/app', express.static('public'))
 //   res.send("Hola");
 // });
 
-server.listen(3000, function () {
+server.listen(process.env.PORT || 3000, function () {
   console.log('La app esta escuchando el puerto 3000')
 })
 
