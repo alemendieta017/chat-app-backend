@@ -1,0 +1,28 @@
+{
+  "name": "chat_app",
+  "version": "0.1.0",
+  "description": "Un chat como telegram pero mas HD",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon"
+  },
+  "keywords": [
+    "Chat",
+    "Telegram",
+    "Node"
+  ],
+  "author": "Ale Mendieta",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "chalk": "^4.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.9",
+    "multer": "^1.4.2",
+    "nodemon": "^2.0.5",
+    "socket.io": "^4.5.1"
+  }
+}
